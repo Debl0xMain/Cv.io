@@ -1,0 +1,185 @@
+.base {
+    border: 5px outset #09C;
+    border-radius: 10px 30px 0px 90px;
+    margin-top: 15px !important;
+    color: #0f045b;
+    background:rgba(0, 153, 204, 0.068);
+}
+.title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #09C;
+    text-shadow: 2px 2px 2px #0f045b;
+}
+.contact_info {
+    text-decoration : none;
+    color:  #0f045b;
+}
+#home {
+    color: black;
+    font-family: Fantasy;
+}
+.s_title {
+    font-style: italic;
+}
+.city {
+    font-weight: bold;
+    font-size: 0.8rem !important;
+}
+#back_nav
+{
+position: fixed;
+bottom : 10px;
+right: -100px;
+opacity: 0.5;
+}
+
+.text_in_box {
+    font-size: 1.2rem;
+    color: rgb(4, 2, 70);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#accueil_section {
+    display: none;
+} 
+#diplome_section {
+    display: none;
+} 
+#exp_rest_section {
+    display: none;
+}
+#exp_rest_section {
+    display: none;
+}
+#form_web_section {
+    display: none;
+}
+#exp_web_section {
+    display: none;
+}
+#contact_section {
+    display: none;
+}
+.contact_info:hover {
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+}
+#home:hover {
+    color: #0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+}
+.btn_nav {
+   color: black;
+   font-family: Cursive;
+}
+#diplome:hover {
+    color: #0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+   
+} 
+#exp_rest:hover {
+    color: #0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+} 
+#form_web:hover {
+    color: #0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+} 
+#exp_web:hover {
+    color:#0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+} 
+#contact:hover {
+    color: #0f045b;
+    font-weight: bold;
+    animation-name: hover_btn_nav !important;
+    animation-duration: 2s;
+}
+
+@keyframes hover_btn_nav {
+    0% { 
+        color: rgba(0, 0, 0, 0.76);
+        font-weight: 400; }
+    25% { 
+        color : rgba(0, 68, 255, 0.637);
+        font-weight: 600; }
+    50% {
+        color :#210f94bd;
+        font-weight: 800;
+    }
+    75% { 
+        color : #10045bb2;
+        font-weight: bold;
+    }
+    100% {  
+        color: #0f045b;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (min-width: 300px) {
+    /* request to learn : off*/
+    .expand {
+      display: none;
+    }
+    .exarrow {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width : 600px) {
+    .text_in_box {
+    font-size: 0.8rem !important;
+    }
+    .base {
+        border: 5px outset #09C;
+        border-radius: 10px;
+        margin-top: 15px !important;
+        color: #0f045b;
+    }
+    
+  }
+  @media screen and (max-width: 299px) {
+    header {
+      display: none;
+    }
+    section {
+      display: none !important;
+    }
+    body {
+      margin: 0;
+    }
+    .expand {
+      display: flex;
+      border-radius: 50px;
+      margin: 10px 10px 10px 10px;
+    }
+    .boximgex {
+      text-align: center;
+      backdrop-filter: blur(5px);
+      border-radius: 90px;
+    }
+    .exarrow {
+      height: 150px;
+      margin: 0 auto;
+    }
+    .text_expand {
+      font-size: 1.2rem;
+      text-align: center;
+      top: 5rem;
+      left: 10px;
+      color: rgb(0, 0, 0);
+      text-shadow: 1px 1px 1px blue;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-weight: bold;
+    }
+  }
