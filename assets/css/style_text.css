@@ -127,7 +127,7 @@ opacity: 0.5;
     
 }
 @media screen and (min-width: 300px) {
-    /* request to learn : off*/
+
     .expand {
       display: none;
     }
@@ -136,7 +136,7 @@ opacity: 0.5;
     }
   }
   
-  @media screen and (max-width : 600px) {
+  @media screen and (max-width : 1000px) {
     .text_in_box {
     font-size: 0.8rem !important;
     }
